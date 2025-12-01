@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    cursor: url("footstep_cursor48.png") 12 12, auto;
+}
+
+
+.intro {
+    position: relative;
+    width: 1469px;   
+    height: 949px;   
+}
+
+
+.tile {
+    position: absolute;
+    width: 114px;   
+    height: 114px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.box {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: black;
+    color: white;
+    font-size: 76px;  
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+
+.i1  { left: -34px;  top: 287px; }
+.i2  { left: 1390px; top: 609px; }
+.i3  { left: 1299px; top: 178px; }
+.i4  { left: 1173px; top: 420px; }
+.i5  { left: 1230px; top: 795px; }
+
+.i6  { left: 1041px; top: 138px; }
+.i7  { left: 620px;  top: 226px; }
+.i8  { left: 783px;  top: 451px; }
+.i9  { left: 735px;  top: 667px; }
+
+.i10 { left: 522px;  top: 681px; }
+.i11 { left: 503px;  top: 418px; }
+.i12 { left: 298px;  top: 475px; }
+.i13 { left: 328px;  top: 136px; }
+.i14 { left: 119px;  top: 230px; }
+.i15 { left: 100px;  top: 705px; }
+
+.t1 { left: 432px; top: 114px; }
+.t2 { left: 689px; top: 293px; }
+.t3 { left: 989px; top: 350px; }
+.t4 { left: 278px; top: 558px; }
+.t5 { left: 724px; top: 634px; }
+.t6 { left: 1019px; top: 685px; }
+
+.menu {
+    position: absolute;
+    top: 839px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 102px; 
+    font-size: 20px;
+}
+
+
+footer {
+    position: absolute;
+    top: 894px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+
