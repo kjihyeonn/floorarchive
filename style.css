@@ -81,7 +81,7 @@ html, body {
 .menu{
   position: fixed;
   left: 0;
-  bottom: 48px;  
+  bottom: 40px;  
   width: 100%;
   height: 56px;
   display: flex;
