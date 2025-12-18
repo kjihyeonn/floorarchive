@@ -83,12 +83,14 @@ html, body {
   left: 0;
   bottom: 48px;  
   width: 100%;
+  height: 56px;
   display: flex;
   justify-content: center;
   gap: 102px;
   font-size: 18px;
   font-weight: 500;
   z-index: 200;
+background: rgba(255,255,255,0.9); 
 }
 
 .menu a,
