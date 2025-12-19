@@ -90,7 +90,8 @@ html, body {
   font-size: 18px;
   font-weight: 500;
   z-index: 200;
-background: white;
+  background: white;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .menu a,
