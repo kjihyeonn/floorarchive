@@ -81,7 +81,7 @@ html, body {
 .menu{
   position: fixed;
   left: 0;
-  bottom: 40px;  
+  bottom: 38px;  
   width: 100%;
   height: 56px;
   display: flex;
@@ -513,6 +513,7 @@ footer{
     font-size: 12px;
     text-align: center;
     z-index: 1100;
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
 
